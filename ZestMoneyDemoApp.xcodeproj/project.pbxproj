@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C104B6052403C03E00ABDEDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104B6042403C03E00ABDEDB /* AppDelegate.swift */; };
+		C104B6072403C03E00ABDEDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104B6062403C03E00ABDEDB /* SceneDelegate.swift */; };
+		C104B60C2403C03E00ABDEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C104B60A2403C03E00ABDEDB /* Main.storyboard */; };
+		C104B60E2403C04400ABDEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C104B60D2403C04400ABDEDB /* Assets.xcassets */; };
+		C104B6112403C04400ABDEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C104B60F2403C04400ABDEDB /* LaunchScreen.storyboard */; };
+		C104B6192403C1D600ABDEDB /* ZestMoneyTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104B6182403C1D600ABDEDB /* ZestMoneyTBC.swift */; };
+		C104B61B2403C3AA00ABDEDB /* EntityDescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104B61A2403C3AA00ABDEDB /* EntityDescriptionVC.swift */; };
+		C13F76592403CFCE006A2A67 /* FeaturedTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F76572403CFCE006A2A67 /* FeaturedTableCell.swift */; };
+		C13F765A2403CFCE006A2A67 /* FeaturedTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13F76582403CFCE006A2A67 /* FeaturedTableCell.xib */; };
+		C13F765D2403D132006A2A67 /* FeatureCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F765B2403D132006A2A67 /* FeatureCollectionCell.swift */; };
+		C13F765E2403D132006A2A67 /* FeatureCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13F765C2403D132006A2A67 /* FeatureCollectionCell.xib */; };
+		C13F76602403D4CA006A2A67 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F765F2403D4CA006A2A67 /* UIViewExtension.swift */; };
+		C13F76632403D90B006A2A67 /* ShowImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F76612403D90B006A2A67 /* ShowImageCollectionCell.swift */; };
+		C13F76642403D90B006A2A67 /* ShowImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13F76622403D90B006A2A67 /* ShowImageCollectionCell.xib */; };
+		C13F76662403E95F006A2A67 /* moneyfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C13F76652403E95F006A2A67 /* moneyfont.ttf */; };
+		C13F76682403EB19006A2A67 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F76672403EB19006A2A67 /* ProfileVC.swift */; };
+		C13F766B2403EE79006A2A67 /* UserDetailsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F76692403EE79006A2A67 /* UserDetailsTableCell.swift */; };
+		C13F766C2403EE79006A2A67 /* UserDetailsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13F766A2403EE79006A2A67 /* UserDetailsTableCell.xib */; };
+		C1E34AAF240435A000EE45F8 /* QuestionsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34AAD240435A000EE45F8 /* QuestionsHeaderView.swift */; };
+		C1E34AB0240435A000EE45F8 /* QuestionsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E34AAE240435A000EE45F8 /* QuestionsHeaderView.xib */; };
+		C1E34AB32404362800EE45F8 /* AdjustableLabelTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E34AB12404362800EE45F8 /* AdjustableLabelTableCell.xib */; };
+		C1E34AB42404362800EE45F8 /* AdjustableLabelTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34AB22404362800EE45F8 /* AdjustableLabelTableCell.swift */; };
+		C1E34AB6240439C600EE45F8 /* AccountDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34AB5240439C600EE45F8 /* AccountDetailsVC.swift */; };
+		C1E34AB92404433C00EE45F8 /* SupportTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34AB72404433C00EE45F8 /* SupportTableCell.swift */; };
+		C1E34ABA2404433C00EE45F8 /* SupportTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E34AB82404433C00EE45F8 /* SupportTableCell.xib */; };
+		C1E34ABC240443F400EE45F8 /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34ABB240443F400EE45F8 /* SupportVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C104B6012403C03E00ABDEDB /* ZestMoneyDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZestMoneyDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C104B6042403C03E00ABDEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C104B6062403C03E00ABDEDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C104B60B2403C03E00ABDEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C104B60D2403C04400ABDEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C104B6102403C04400ABDEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C104B6122403C04400ABDEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C104B6182403C1D600ABDEDB /* ZestMoneyTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZestMoneyTBC.swift; sourceTree = "<group>"; };
+		C104B61A2403C3AA00ABDEDB /* EntityDescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityDescriptionVC.swift; sourceTree = "<group>"; };
+		C13F76572403CFCE006A2A67 /* FeaturedTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTableCell.swift; sourceTree = "<group>"; };
+		C13F76582403CFCE006A2A67 /* FeaturedTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturedTableCell.xib; sourceTree = "<group>"; };
+		C13F765B2403D132006A2A67 /* FeatureCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCollectionCell.swift; sourceTree = "<group>"; };
+		C13F765C2403D132006A2A67 /* FeatureCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeatureCollectionCell.xib; sourceTree = "<group>"; };
+		C13F765F2403D4CA006A2A67 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		C13F76612403D90B006A2A67 /* ShowImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageCollectionCell.swift; sourceTree = "<group>"; };
+		C13F76622403D90B006A2A67 /* ShowImageCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowImageCollectionCell.xib; sourceTree = "<group>"; };
+		C13F76652403E95F006A2A67 /* moneyfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = moneyfont.ttf; sourceTree = "<group>"; };
+		C13F76672403EB19006A2A67 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		C13F76692403EE79006A2A67 /* UserDetailsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsTableCell.swift; sourceTree = "<group>"; };
+		C13F766A2403EE79006A2A67 /* UserDetailsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailsTableCell.xib; sourceTree = "<group>"; };
+		C1E34AAD240435A000EE45F8 /* QuestionsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsHeaderView.swift; sourceTree = "<group>"; };
+		C1E34AAE240435A000EE45F8 /* QuestionsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionsHeaderView.xib; sourceTree = "<group>"; };
+		C1E34AB12404362800EE45F8 /* AdjustableLabelTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdjustableLabelTableCell.xib; sourceTree = "<group>"; };
+		C1E34AB22404362800EE45F8 /* AdjustableLabelTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustableLabelTableCell.swift; sourceTree = "<group>"; };
+		C1E34AB5240439C600EE45F8 /* AccountDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsVC.swift; sourceTree = "<group>"; };
+		C1E34AB72404433C00EE45F8 /* SupportTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportTableCell.swift; sourceTree = "<group>"; };
+		C1E34AB82404433C00EE45F8 /* SupportTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupportTableCell.xib; sourceTree = "<group>"; };
+		C1E34ABB240443F400EE45F8 /* SupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C104B5FE2403C03E00ABDEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C104B5F82403C03E00ABDEDB = {
+			isa = PBXGroup;
+			children = (
+				C104B6032403C03E00ABDEDB /* ZestMoneyDemoApp */,
+				C104B6022403C03E00ABDEDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C104B6022403C03E00ABDEDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C104B6012403C03E00ABDEDB /* ZestMoneyDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C104B6032403C03E00ABDEDB /* ZestMoneyDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				C104B6042403C03E00ABDEDB /* AppDelegate.swift */,
+				C104B6062403C03E00ABDEDB /* SceneDelegate.swift */,
+				C104B60A2403C03E00ABDEDB /* Main.storyboard */,
+				C104B60F2403C04400ABDEDB /* LaunchScreen.storyboard */,
+				C104B60D2403C04400ABDEDB /* Assets.xcassets */,
+				C104B6122403C04400ABDEDB /* Info.plist */,
+				C13F76652403E95F006A2A67 /* moneyfont.ttf */,
+				C13F76562403CF84006A2A67 /* Xibs */,
+				C104B6182403C1D600ABDEDB /* ZestMoneyTBC.swift */,
+				C104B61A2403C3AA00ABDEDB /* EntityDescriptionVC.swift */,
+				C13F76672403EB19006A2A67 /* ProfileVC.swift */,
+				C1E34ABB240443F400EE45F8 /* SupportVC.swift */,
+				C1E34AB5240439C600EE45F8 /* AccountDetailsVC.swift */,
+				C13F765F2403D4CA006A2A67 /* UIViewExtension.swift */,
+			);
+			path = ZestMoneyDemoApp;
+			sourceTree = "<group>";
+		};
+		C13F76562403CF84006A2A67 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				C13F76572403CFCE006A2A67 /* FeaturedTableCell.swift */,
+				C13F76582403CFCE006A2A67 /* FeaturedTableCell.xib */,
+				C13F765B2403D132006A2A67 /* FeatureCollectionCell.swift */,
+				C13F765C2403D132006A2A67 /* FeatureCollectionCell.xib */,
+				C13F76612403D90B006A2A67 /* ShowImageCollectionCell.swift */,
+				C13F76622403D90B006A2A67 /* ShowImageCollectionCell.xib */,
+				C13F76692403EE79006A2A67 /* UserDetailsTableCell.swift */,
+				C13F766A2403EE79006A2A67 /* UserDetailsTableCell.xib */,
+				C1E34AB22404362800EE45F8 /* AdjustableLabelTableCell.swift */,
+				C1E34AB12404362800EE45F8 /* AdjustableLabelTableCell.xib */,
+				C1E34AAD240435A000EE45F8 /* QuestionsHeaderView.swift */,
+				C1E34AAE240435A000EE45F8 /* QuestionsHeaderView.xib */,
+				C1E34AB72404433C00EE45F8 /* SupportTableCell.swift */,
+				C1E34AB82404433C00EE45F8 /* SupportTableCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C104B6002403C03E00ABDEDB /* ZestMoneyDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C104B6152403C04400ABDEDB /* Build configuration list for PBXNativeTarget "ZestMoneyDemoApp" */;
+			buildPhases = (
+				C104B5FD2403C03E00ABDEDB /* Sources */,
+				C104B5FE2403C03E00ABDEDB /* Frameworks */,
+				C104B5FF2403C03E00ABDEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZestMoneyDemoApp;
+			productName = ZestMoneyDemoApp;
+			productReference = C104B6012403C03E00ABDEDB /* ZestMoneyDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C104B5F92403C03E00ABDEDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Vipul Kumar";
+				TargetAttributes = {
+					C104B6002403C03E00ABDEDB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C104B5FC2403C03E00ABDEDB /* Build configuration list for PBXProject "ZestMoneyDemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C104B5F82403C03E00ABDEDB;
+			productRefGroup = C104B6022403C03E00ABDEDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C104B6002403C03E00ABDEDB /* ZestMoneyDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C104B5FF2403C03E00ABDEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E34AB0240435A000EE45F8 /* QuestionsHeaderView.xib in Resources */,
+				C13F76642403D90B006A2A67 /* ShowImageCollectionCell.xib in Resources */,
+				C1E34AB32404362800EE45F8 /* AdjustableLabelTableCell.xib in Resources */,
+				C104B6112403C04400ABDEDB /* LaunchScreen.storyboard in Resources */,
+				C1E34ABA2404433C00EE45F8 /* SupportTableCell.xib in Resources */,
+				C104B60E2403C04400ABDEDB /* Assets.xcassets in Resources */,
+				C13F765A2403CFCE006A2A67 /* FeaturedTableCell.xib in Resources */,
+				C104B60C2403C03E00ABDEDB /* Main.storyboard in Resources */,
+				C13F76662403E95F006A2A67 /* moneyfont.ttf in Resources */,
+				C13F766C2403EE79006A2A67 /* UserDetailsTableCell.xib in Resources */,
+				C13F765E2403D132006A2A67 /* FeatureCollectionCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C104B5FD2403C03E00ABDEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E34ABC240443F400EE45F8 /* SupportVC.swift in Sources */,
+				C13F766B2403EE79006A2A67 /* UserDetailsTableCell.swift in Sources */,
+				C13F76682403EB19006A2A67 /* ProfileVC.swift in Sources */,
+				C104B6192403C1D600ABDEDB /* ZestMoneyTBC.swift in Sources */,
+				C1E34AB42404362800EE45F8 /* AdjustableLabelTableCell.swift in Sources */,
+				C13F76592403CFCE006A2A67 /* FeaturedTableCell.swift in Sources */,
+				C104B6052403C03E00ABDEDB /* AppDelegate.swift in Sources */,
+				C1E34AB6240439C600EE45F8 /* AccountDetailsVC.swift in Sources */,
+				C1E34AB92404433C00EE45F8 /* SupportTableCell.swift in Sources */,
+				C104B6072403C03E00ABDEDB /* SceneDelegate.swift in Sources */,
+				C1E34AAF240435A000EE45F8 /* QuestionsHeaderView.swift in Sources */,
+				C13F76632403D90B006A2A67 /* ShowImageCollectionCell.swift in Sources */,
+				C13F765D2403D132006A2A67 /* FeatureCollectionCell.swift in Sources */,
+				C13F76602403D4CA006A2A67 /* UIViewExtension.swift in Sources */,
+				C104B61B2403C3AA00ABDEDB /* EntityDescriptionVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C104B60A2403C03E00ABDEDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C104B60B2403C03E00ABDEDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C104B60F2403C04400ABDEDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C104B6102403C04400ABDEDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C104B6132403C04400ABDEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C104B6142403C04400ABDEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C104B6162403C04400ABDEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XL77RNA5;
+				INFOPLIST_FILE = ZestMoneyDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vs.ZestMoneyDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C104B6172403C04400ABDEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XL77RNA5;
+				INFOPLIST_FILE = ZestMoneyDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vs.ZestMoneyDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C104B5FC2403C03E00ABDEDB /* Build configuration list for PBXProject "ZestMoneyDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104B6132403C04400ABDEDB /* Debug */,
+				C104B6142403C04400ABDEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C104B6152403C04400ABDEDB /* Build configuration list for PBXNativeTarget "ZestMoneyDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104B6162403C04400ABDEDB /* Debug */,
+				C104B6172403C04400ABDEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C104B5F92403C03E00ABDEDB /* Project object */;
+}
